@@ -1,6 +1,6 @@
-#ifndef weight_coefficient
-#define weight_coefficient
+#ifndef WEIGHT_COEFFICIENT_H
+#define WEIGHT_COEFFICIENT_H
 
- double* weight_coefficient(double Z'[]);
+double *find_weight_coefficient(double elimination_matrix[], int n);
 
-#endif
+#endif 
